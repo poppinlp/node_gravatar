@@ -1,0 +1,13 @@
+{
+    "name": "gravatar4node",
+    "version": "0.0.1",
+    "description": "gravatar for node",
+    "main": "gravatar.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/poppinlp/node_gravatar"
+    },
+    "author": "PoppinL",
+    "license": "MIT",
+    "readmeFilename": "README.md"
+}
