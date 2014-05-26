@@ -7,7 +7,18 @@
         "type": "git",
         "url": "https://github.com/poppinlp/node_gravatar"
     },
+    "bugs": {
+        "url": "https://github.com/poppinlp/node_gravatar/issues"
+    },
     "author": "PoppinL",
     "license": "MIT",
-    "readmeFilename": "README.md"
+    "readmeFilename": "README.md",
+    "engines": {
+        "node": ">= 0.8.0"
+    },
+    "keywords": [
+        "node",
+        "nodejs",
+        "gravatar"
+    ]
 }
