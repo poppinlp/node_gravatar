@@ -1,3 +1,13 @@
+/*
+ * gravatar4node
+ * https://github.com/poppinlp/node_gravatar
+ *
+ * Copyright (c) 2014 "PoppinLp" Liang Peng
+ * Licensed under the MIT license.
+ */
+
+'use strict';
+
 var crypto = require('crypto'),
     qs = require('querystring'),
     gravatar = module.exports = {

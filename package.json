@@ -1,7 +1,7 @@
 {
     "name": "gravatar4node",
-    "version": "0.0.2",
-    "description": "gravatar for node",
+    "version": "0.0.3",
+    "description": "Gravatar for node",
     "main": "gravatar.js",
     "repository": {
         "type": "git",
@@ -10,7 +10,11 @@
     "bugs": {
         "url": "https://github.com/poppinlp/node_gravatar/issues"
     },
-    "author": "PoppinL",
+    "author": {
+        "name": "PoppinL",
+        "email": "poppinlp@gmail.com",
+        "url": "http://poppinlp.github.io"
+    },
     "license": "MIT",
     "readmeFilename": "README.md",
     "engines": {
@@ -19,6 +23,10 @@
     "keywords": [
         "node",
         "nodejs",
-        "gravatar"
-    ]
+        "gravatar",
+        "avatar"
+    ],
+    "scripts": {
+        "test": "node demo.js"
+    }
 }
