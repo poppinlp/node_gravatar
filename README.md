@@ -1,6 +1,8 @@
 # Gravatar4node
 
 [![Build Status](https://travis-ci.org/poppinlp/node_gravatar.png?branch=master)](https://travis-ci.org/poppinlp/node_gravatar)
+[![Dependency Status](https://david-dm.org/poppinlp/node_gravatar.svg)](https://david-dm.org/poppinlp/node_gravatar)
+[![devDependency Status](https://david-dm.org/poppinlp/node_gravatar/dev-status.svg)](https://david-dm.org/poppinlp/node_gravatar#info=devDependencies)
 
 Node module to get gravatar info.
 
@@ -11,6 +13,18 @@ Install with this command:
 ```shell
 npm install gravatar4node --save-dev
 ```
+
+### API
+
+#### getAvatar(email, [params, https])
+
+Return avatar url.
+
+For more details about `params` options, please see [options page](http://en.gravatar.com/site/implement/images/).
+
+#### getProfile(email, [https])
+
+Return profile json url.
 
 ### Usage Examples
 
@@ -26,8 +40,6 @@ var img = gravatar.getAvatar('poppinlp@gmail.com');
 ```js
 gravatar.getAvatar('poppinlp@gmail.com', {s: 100, d: 'retro'});
 ```
-
-For more details about options please visit [options](http://en.gravatar.com/site/implement/images/)
 
 ### Demo
 
