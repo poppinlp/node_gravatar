@@ -11,7 +11,7 @@ Node module to get gravatar info.
 Install with this command:
 
 ```shell
-npm install gravatar4node --save-dev
+npm install gravatar4node --save
 ```
 
 ### API
